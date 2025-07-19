@@ -1,0 +1,310 @@
+{
+  "resep": [
+    {
+      "id": 1,
+      "title": "Indomie Goreng Telur Keju",
+      "image": "indomie-goreng.jpg",
+      "time": "10 menit",
+      "description": "Mi instan goreng favorit ditambah telur setengah matang dan parutan keju cheddar, selesai dalam 1 panci.",
+      "quick": true,
+      "slug": "indomie-goreng-telur-keju",
+      "ingredients": [
+        "1 bungkus mi instan goreng",
+        "1 butir telur",
+        "1 lembar keju slice atau 2 sdm keju parut",
+        "Air secukupnya",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Rebus mi instan hingga 80% matang, lalu tiriskan.",
+        "Panaskan sedikit minyak dan goreng telur setengah matang.",
+        "Campurkan bumbu mi di dalam piring.",
+        "Masukkan mi ke piring, aduk rata dengan bumbu.",
+        "Letakkan telur di atas mi dan taburi keju.",
+        "Sajikan hangat."
+      ],
+      "notes": "Keju akan meleleh sempurna jika langsung ditaruh di atas mi panas."
+    },
+    {
+      "id": 2,
+      "title": "Nasi Goreng Kampung",
+      "image": "nasi-goreng.jpg",
+      "time": "20 menit",
+      "description": "Nasi sisa semalam digoreng dengan bawang, kecap manis, irisan cabai, dan topping telur dadar suwir.",
+      "quick": true,
+      "slug": "nasi-goreng-kampung",
+      "ingredients": [
+        "2 piring nasi putih",
+        "2 siung bawang putih",
+        "1 butir telur",
+        "2 sdm kecap manis",
+        "Cabai rawit sesuai selera",
+        "Garam dan merica secukupnya",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Panaskan minyak, tumis bawang putih hingga harum.",
+        "Masukkan cabai dan telur, orak-arik.",
+        "Masukkan nasi, aduk rata.",
+        "Tambahkan kecap manis, garam, dan merica.",
+        "Aduk rata hingga nasi panas dan sedikit kering.",
+        "Angkat dan sajikan."
+      ],
+      "notes": "Gunakan nasi dingin agar tidak lembek saat digoreng."
+    },
+    {
+      "id": 3,
+      "title": "Ayam Geprek Sambal Bawang",
+      "image": "ayam-geprek.jpeg",
+      "time": "25 menit",
+      "description": "Fillet ayam krispi digeprek bersama sambal bawang rawit super pedas—cocok buat makan kilat.",
+      "quick": true,
+      "ingredients": [
+        "1 potong dada ayam, fillet",
+        "Tepung bumbu serbaguna",
+        "5 buah cabai rawit",
+        "3 siung bawang putih",
+        "Minyak goreng",
+        "Garam secukupnya"
+      ],
+      "steps": [
+        "Balur ayam dengan tepung lalu goreng hingga krispi.",
+        "Haluskan cabai dan bawang, tumis dengan sedikit minyak.",
+        "Letakkan ayam di atas cobek, siram sambal tumis.",
+        "Geprek ayam hingga menyatu dengan sambal.",
+        "Sajikan dengan nasi hangat."
+      ],
+      "notes": "Sambal makin nikmat kalau ditumis dengan sedikit margarin.",
+      "slug": "ayam-geprek-sambal-bawang"
+    },
+    {
+      "id": 4,
+      "title": "Sate Ayam Bumbu Kacang",
+      "image": "sate-ayam.jpg",
+      "time": "45 menit",
+      "description": "Tusukan dada ayam dipanggang arang lalu disiram saus kacang gurih manis ala kaki-lima.",
+      "quick": false,
+      "ingredients": [
+        "300 gram dada ayam, potong dadu",
+        "Tusuk sate",
+        "4 sdm kacang tanah goreng",
+        "2 siung bawang putih",
+        "2 sdm kecap manis",
+        "1 buah jeruk nipis",
+        "Garam secukupnya"
+      ],
+      "steps": [
+        "Tumbuk kasar kacang tanah dan bawang putih.",
+        "Campur dengan kecap, air, dan sedikit garam.",
+        "Tusuk potongan ayam, lalu panggang hingga matang.",
+        "Siram bumbu kacang di atas sate.",
+        "Sajikan dengan lontong atau nasi."
+      ],
+      "notes": "Panggang dengan arang untuk rasa autentik kaki lima.",
+      "slug": "sate-ayam-bumbu-kacang"
+    },
+    {
+      "id": 5,
+      "title": "Rendang Daging Padang",
+      "image": "rendang.jpg",
+      "time": "2 jam",
+      "description": "Daging sapi dimasak perlahan dengan santan & rempah sampai hitam legit—hasil akhir super empuk.",
+      "quick": false,
+      "ingredients": [
+        "500 gram daging sapi",
+        "500 ml santan kental",
+        "4 siung bawang merah",
+        "3 siung bawang putih",
+        "2 batang serai",
+        "2 lembar daun jeruk",
+        "Cabai merah besar",
+        "Rempah: ketumbar, kunyit, jahe, lengkuas"
+      ],
+      "steps": [
+        "Haluskan bumbu, tumis hingga wangi.",
+        "Masukkan daging, aduk hingga berubah warna.",
+        "Tuang santan, kecilkan api.",
+        "Masak 2 jam hingga kuah menyusut dan berminyak.",
+        "Aduk sesekali agar tidak gosong.",
+        "Angkat saat warna rendang sudah cokelat kehitaman."
+      ],
+      "notes": "Gunakan santan peras asli agar rasa lebih legit.",
+      "slug": "rendang-daging-padang"
+    },
+    {
+      "id": 6,
+      "title": "Mie Tek-tek",
+      "image": "mie-tektek.jpg",
+      "time": "25 menit",
+      "description": "Mi kuning tumis berkuah tipis dengan telur, bakso, dan kecap; rasa gurih manis khas abang gerobak.",
+      "quick": true,
+      "ingredients": [
+        "Mi kuning basah 1 bungkus",
+        "2 butir telur",
+        "3 bakso iris tipis",
+        "1 siung bawang putih",
+        "2 sdm kecap manis",
+        "Air secukupnya",
+        "Garam dan merica"
+      ],
+      "steps": [
+        "Tumis bawang putih hingga harum.",
+        "Masukkan telur, orak-arik, lalu tambahkan bakso.",
+        "Masukkan mi dan sedikit air.",
+        "Tambahkan kecap, garam, dan merica.",
+        "Masak hingga air menyusut dan mi matang.",
+        "Angkat dan sajikan."
+      ],
+      "notes": "Tambahkan sawi jika ingin versi sedikit lebih sehat.",
+      "slug": "mie-tek-tek"
+    },
+    {
+      "id": 7,
+      "title": "Ayam Kecap Praktis",
+      "image": "ayam-kecap.jpg",
+      "time": "20 menit",
+      "description": "Potongan ayam tumis cepat dalam saus kecap bawang putih; cocok jadi lauk harian tanpa ribet.",
+      "quick": true,
+      "ingredients": [
+        "250 gram ayam fillet",
+        "2 siung bawang putih",
+        "3 sdm kecap manis",
+        "1 sdm saus tiram",
+        "Air secukupnya",
+        "Garam, merica",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Tumis bawang putih hingga harum.",
+        "Masukkan potongan ayam, masak hingga berubah warna.",
+        "Tambahkan kecap, saus tiram, dan air.",
+        "Bumbui dengan garam dan merica.",
+        "Masak hingga kuah menyusut dan ayam matang.",
+        "Sajikan dengan nasi putih."
+      ],
+      "notes": "Bisa ditambahkan bawang bombay untuk rasa manis alami.",
+      "slug": "ayam-kecap-praktis"
+    },
+    {
+      "id": 8,
+      "title": "Martabak Manis Cokelat Keju",
+      "image": "martabak-manis.jpg",
+      "time": "45 menit",
+      "description": "Adonan tebal bersarang diisi meses cokelat & keju parut, dilipat jadi satu porsi jajanan malam.",
+      "quick": false,
+      "ingredients": [
+        "250 gram tepung terigu",
+        "2 sdm gula",
+        "1/2 sdt baking powder",
+        "1 sdt ragi",
+        "200 ml air hangat",
+        "Margarin",
+        "Topping: meses cokelat, keju parut, susu kental manis"
+      ],
+      "steps": [
+        "Campur bahan kering, lalu tambahkan air.",
+        "Biarkan adonan mengembang 30 menit.",
+        "Panaskan teflon, tuang adonan.",
+        "Masak dengan api kecil hingga berlubang dan matang.",
+        "Olesi margarin, tambahkan topping.",
+        "Lipat martabak dan potong."
+      ],
+      "notes": "Gunakan api kecil agar tidak gosong bawahnya.",
+      "slug": "martabak-manis-cokelat-keju"
+    },
+    {
+      "id": 9,
+      "title": "Beef Teriyaki Rice Bowl",
+      "image": "beef-teriyaki.jpg",
+      "time": "20 menit",
+      "description": "Irisan tipis daging sapi tumis saus teriyaki legit—disajikan di atas nasi hangat ala bento Jepang.",
+      "quick": true,
+      "ingredients": [
+        "200 gram daging sapi iris tipis",
+        "2 sdm saus teriyaki",
+        "1 sdm kecap asin",
+        "1/2 bawang bombay",
+        "Minyak goreng",
+        "Nasi putih"
+      ],
+      "steps": [
+        "Tumis bawang bombay hingga harum.",
+        "Masukkan daging, masak hingga matang.",
+        "Tambahkan saus teriyaki dan kecap asin.",
+        "Masak sampai meresap.",
+        "Sajikan di atas nasi putih hangat."
+      ],
+      "notes": "Gunakan daging sukiyaki agar empuk dan cepat matang.",
+      "slug": "beef-teriyaki-rice-bowl"
+    },
+    {
+      "id": 10,
+      "title": "Chicken Popcorn Crispy",
+      "image": "popcorn-chicken.jpg",
+      "time": "30 menit",
+      "description": "Potongan ayam bite-size dilapisi tepung berbumbu dan digoreng renyah—cocok jadi camilan nonton.",
+      "quick": true,
+      "ingredients": [
+        "250 gram dada ayam, potong dadu kecil",
+        "Tepung bumbu krispi",
+        "Air es",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Celup ayam ke adonan basah, lalu balur tepung kering.",
+        "Goreng dalam minyak panas hingga keemasan.",
+        "Tiriskan dan sajikan dengan saus sambal."
+      ],
+      "notes": "Goreng dua kali untuk hasil ekstra renyah.",
+      "slug": "chicken-popcorn-crispy"
+    },
+    {
+      "id": 11,
+      "title": "Kornet Kentang Tumis",
+      "image": "kornet-kentang.jpg",
+      "time": "25 menit",
+      "description": "Kornet sapi dan dadu kentang digoreng kering dengan bawang & saus tiram, rasanya gurih super simpel.",
+      "quick": true,
+      "ingredients": [
+        "1 kaleng kornet sapi",
+        "2 buah kentang, potong dadu kecil",
+        "2 siung bawang merah",
+        "1 siung bawang putih",
+        "Garam dan merica",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Goreng kentang sampai kecokelatan, tiriskan.",
+        "Tumis bawang merah & putih, masukkan kornet.",
+        "Tambahkan kentang goreng, aduk rata.",
+        "Bumbui garam dan merica, angkat."
+      ],
+      "notes": "Enak dijadikan isian roti atau makan dengan nasi.",
+      "slug": "kornet-kentang-tumis"
+    },
+    {
+      "id": 12,
+      "title": "Telur Dadar Padang",
+      "image": "Telur-Dadar-Padang.jpg",
+      "time": "10 menit",
+      "description": "Telur berbumbu cabai bubuk & bawang daun digoreng tebal; pinggirannya krispi, tengahnya lembut.",
+      "quick": true,
+      "ingredients": [
+        "3 butir telur",
+        "1 sdm cabai bubuk",
+        "1 batang daun bawang, iris",
+        "Garam dan merica",
+        "Minyak goreng"
+      ],
+      "steps": [
+        "Kocok telur dengan cabai bubuk dan daun bawang.",
+        "Bumbui dengan garam dan merica.",
+        "Goreng dalam minyak panas, gunakan api kecil.",
+        "Balik sekali agar matang merata.",
+        "Sajikan selagi panas."
+      ],
+      "notes": "Gunakan wajan kecil agar bentuknya tebal dan padat seperti di warung Padang.",
+      "slug": "telur-dadar-padang"
+    }
+  ]
+}
