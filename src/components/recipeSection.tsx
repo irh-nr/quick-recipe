@@ -44,7 +44,7 @@ export function RecipeSection({ recipes }: { recipes: Recipe[] }) {
   const paginatedData = useMemo(() => {
     const start = (page - 1) * ITEMS_PER_PAGE;
     return recipes.slice(start, start + ITEMS_PER_PAGE);
-  }, [page]);
+  }, [page, recipes]);
   const handlePageChange = (p: number) => {
     router.push(`/recipe?page=${p}`);
   };
