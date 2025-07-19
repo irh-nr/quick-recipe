@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center bg-primary w-full h-[100px]">
+    <div className="flex flex-col items-center bg-primary w-full h-[180px] p-4">
       <div className="flex flex-row gap-4 p-2 mt-4">
         {socials.map(({ icon: Icon, url }, i) => (
           <div key={i}>
