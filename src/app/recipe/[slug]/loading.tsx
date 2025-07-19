@@ -48,7 +48,7 @@ export default function loading() {
           </div>
           <div
             id="Recipe-img"
-            className="relative w-full max-w-screen h-screen md:max-w-sm rounded-2xl shadow-sm aspect-[4/3] md:aspect-[3/4]"
+            className="relative w-full max-w-screen md:h-screen md:max-w-sm rounded-2xl shadow-sm aspect-[4/3] md:aspect-[3/4]"
           >
             <Skeleton className="relative w-full h-full" />
           </div>
