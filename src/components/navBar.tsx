@@ -2,8 +2,6 @@ import React from 'react'
 import {NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
-  NavigationMenuContent,
-  NavigationMenuTrigger,
   NavigationMenuLink,
   NavigationMenuIndicator,
   NavigationMenuViewport,
