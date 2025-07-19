@@ -1,4 +1,3 @@
-import { notFound, redirect } from "next/navigation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
@@ -12,8 +11,6 @@ interface Recipe {
 export default async function Page({ params }: { params: Promise<Recipe> }) {
   const { slug } = await params;
   const resep = await getAllRecipesBySlug(slug);
-  if (!resep) notFound();
-
   return (
     <main>
       <div className="p-2 pl-0">
