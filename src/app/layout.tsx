@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import  { NavBar }  from "@/components/navBar";
+import { NavBar } from "@/components/navBar";
 import Footer from "@/sections/Footer";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,12 +14,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Simple & Quick Recipe",
   description: "Created by me",
   icons: {
-    icon: "/globe.svg",
+    icon: "/icon.svg",
   },
 };
 
@@ -30,19 +28,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">   
-      
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <header>
-            <nav>
-              <NavBar />
-            </nav>
-          </header> 
-            {children}
-          <footer>
-            <Footer />
-          </footer>
-        </body>
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <header>
+          <nav>
+            <NavBar />
+          </nav>
+        </header>
+        {children}
+        <footer>
+          <Footer />
+        </footer>
+      </body>
     </html>
   );
 }
