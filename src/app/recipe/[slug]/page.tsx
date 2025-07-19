@@ -68,14 +68,13 @@ export default async function Page({ params }: { params: Promise<Recipe> }) {
           </div>
           <div
             id="Recipe-img"
-            className="relative w-full max-w-md rounded-2xl shadow-md aspect-[4/3] md:aspect-[3/4]"
+            className="relative w-full max-w-screen md:max-w-sm rounded-2xl shadow-md aspect-[4/3] md:aspect-[3/4]"
           >
             <Image
               src={`/img/resep-img/${resep.image}`}
               alt="Recipe-img"
               style={{ objectFit: "cover" }}
               fill
-              unoptimized
               className="rounded-2xl"
             />
           </div>
