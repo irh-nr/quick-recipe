@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { getAllRecipes, getFilteredRecipe } from "@/lib/actions";
 
-export default async function Recipe({
-  searchParams,
-}: {
-  searchParams: { search?: string };
-}) {
+type Props = {
+  searchParams: Promise<{ search?: string }>;
+};
+
+export default async function Recipe({ searchParams }: Props) {
   const { search = "" } = await searchParams;
   const keyword = search.trim();
   const recipes = keyword
