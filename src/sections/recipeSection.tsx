@@ -1,14 +1,6 @@
 "use client";
 
 import {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card";
-import {
   Pagination,
   PaginationContent,
   PaginationLink,
@@ -17,12 +9,8 @@ import {
   PaginationNext,
   PaginationEllipsis,
 } from "../components/ui/pagination";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useMemo } from "react";
-import Image from "next/image";
 import { Recipe } from "@/lib/type";
 import RecipeCard from "../components/recipeCard";
 
