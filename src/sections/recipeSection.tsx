@@ -16,23 +16,15 @@ import {
   PaginationPrevious,
   PaginationNext,
   PaginationEllipsis,
-} from "./ui/pagination";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Badge, badgeVariants } from "@/components/ui/badge";
+} from "../components/ui/pagination";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useMemo } from "react";
-
-interface Recipe {
-  title: string;
-  image: string;
-  time: string;
-  description: string;
-  quick: boolean;
-  id: string;
-  slug: string;
-}
+import Image from "next/image";
+import { Recipe } from "@/lib/type";
+import RecipeCard from "../components/recipeCard";
 
 const ITEMS_PER_PAGE = 6; // Set the number of items per page
 
@@ -62,34 +54,7 @@ export function RecipeSection({ recipes }: { recipes: Recipe[] }) {
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {paginatedData.map((resep) => (
-          <Card key={resep.id} className="flex flex-col justify-between">
-            <CardHeader className="flex-row gap-4 items-center">
-              <Avatar>
-                <AvatarImage
-                  src={`/img/resep-img/${resep.image}`}
-                  alt={resep.title}
-                />
-                <AvatarFallback>{resep.title.slice(0, 2)}</AvatarFallback>
-              </Avatar>
-              <div>
-                <CardTitle>{resep.title}</CardTitle>
-                <CardDescription>{resep.time} untuk memasak.</CardDescription>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p>{resep.description}</p>
-            </CardContent>
-            <CardFooter className="flex justify-between items-center">
-              <Button asChild variant="outline">
-                <Link href={`recipe/${resep.slug}`}>Lihat Resep</Link>
-              </Button>
-              {resep.quick && (
-                <Badge className={badgeVariants({ variant: "quick" })}>
-                  Cepat!
-                </Badge>
-              )}
-            </CardFooter>
-          </Card>
+          <RecipeCard recipe={resep} key={resep.id} showDescription={true} />
         ))}
       </div>
       <div className="w-full flex justify-center mt-8">

@@ -1,4 +1,4 @@
-import { RecipeSection } from "@/components/recipeSection";
+import { RecipeSection } from "@/sections/recipeSection";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";

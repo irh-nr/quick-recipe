@@ -1,4 +1,4 @@
-import { RecipeImgCarousel } from "@/components/recipeImgCarousel";
+import { RecipeImgMarquee } from "@/components/recipeImgMarquee";
 import { Separator } from "@/components/ui/separator";
 import { Hero } from "@/sections/Hero";
 import { LihatResep } from "@/sections/LihatResep";
@@ -27,24 +27,27 @@ export default async function Home() {
         <LihatResep />
       </div>
       <Separator />
-      <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8 mt-4 py-10">
+      <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8 mt-4 p-6">
         <div>
-          <RecipeImgCarousel recipes={randomRecipes}></RecipeImgCarousel>
-        </div>
-        <div>
-          <h2 className="text-center md:text-right typography-h2">
+          <h2 className="text-center md:text-left typography-h2">
             Memasak dengan cepat!
           </h2>
-          <p className="text-center md:text-right typography-p">
+          <p className="text-center md:text-left typography-p">
             Lagi butuh ide makan apa, nih?
           </p>
         </div>
-      </div>
-      <div className="p-4 my-2">
-        <RecipeCardCarousel recipes={randomRecipes}></RecipeCardCarousel>
+        <div>
+          <RecipeCardCarousel recipes={randomRecipes} />
+        </div>
       </div>
       <Separator />
       <TentangKami />
+      <div className="flex flex-col w-full gap-8 mt-4 p-6">
+        <h2 className="text-center md:text-left typography-h2">Galeri</h2>
+        <div>
+          <RecipeImgMarquee recipes={randomRecipes} />
+        </div>
+      </div>
     </main>
   );
 }

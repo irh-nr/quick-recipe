@@ -12,25 +12,25 @@ export function Hero() {
         fill
         priority
         className="w-full h-full inset-0 z-0 opacity-100"
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
-
       <div className="absolute inset-0 backdrop-blur-sm bg-black/10 z-10" />
       {/*blur effect */}
-      <div className="absolute inset-0 bg-black/70 opacity-35 " />
-      {/*dark overlay */}
       <div
         id="hero"
-        className="absolute inset-0 z-30 flex flex-col items-center justify-center gap-2 pt-4"
+        className="absolute inset-0 z-30 flex flex-col items-center justify-center gap-1 pt-4"
       >
-        <h1 className="typography-h1 text-shadow-md text-secondary text-center p-4 ">
+        <h1 className="typography-h1 text-shadow-md text-secondary text-center p-4">
           Selamat Datang di QuickRecipe!
         </h1>
-        <p className="text-center text-shadow-md text-secondary px-6">
-          Temukan resep cepat dan mudah untuk hidangan lezat!
-        </p>
-        <p className="text-center text-shadow-md text-secondary px-6">
-          Aplikasi ini dibuat dengan Next.js, TypeScript, dan Tailwind CSS.
-        </p>
+        <span className="px-5">
+          <p className="text-center text-shadow-md text-secondary">
+            Temukan resep cepat dan mudah untuk hidangan lezat!
+          </p>
+          <p className="text-center text-shadow-md text-secondary">
+            Aplikasi ini dibuat dengan Next.js, TypeScript, dan Tailwind CSS.
+          </p>
+        </span>
         <div className="p-2">
           <Button asChild className="mt-4" variant="transparent">
             <Link href="#get-started">Mulai</Link>

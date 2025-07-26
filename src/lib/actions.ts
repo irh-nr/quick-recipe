@@ -31,3 +31,8 @@ export async function getFilteredRecipe(keyword: string) {
     if (error) throw error
     return data
 }
+
+export async function getPaginatedRecipe(page: number, perPage: number) {
+    const offset = (page - 1) * perPage
+
+}
