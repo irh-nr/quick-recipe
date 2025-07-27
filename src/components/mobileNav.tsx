@@ -37,7 +37,7 @@ export default function MobileNav() {
               Recipe
             </Link>
           </SheetClose>
-          <Separator />
+          <Separator className="hidden" />
           <SheetClose asChild>
             <Link
               href={"/#about"}
