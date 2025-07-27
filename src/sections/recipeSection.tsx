@@ -31,7 +31,7 @@ export function RecipeSection({ recipes }: { recipes: Recipe[] }) {
 
   if (recipes.length === 0) {
     return (
-      <div className="flex flex-col items-center h-[30vw]">
+      <div className="flex flex-col items-center h-[100vw]">
         <p className="text-muted-foreground text-shadow-2xs mt-5">
           Resep tidak ditemukan.
         </p>
