@@ -6,7 +6,7 @@ export default function loading() {
       <div className="p-2 pl-0">
         <Skeleton className="w-30 h-10" />
       </div>
-      <div className="p-4 shadow-sm rounded-xl max-w-screen justify-between">
+      <div className="p-4 shadow-sm rounded-xl max-w-screen justify-between fade-In">
         <div className="relative flex flex-col-reverse md:flex-row items-center w-full justify-center md:justify-between overflow-hidden">
           <div className="flex flex-col gap-4 pt-8 lg:pt-0">
             <div

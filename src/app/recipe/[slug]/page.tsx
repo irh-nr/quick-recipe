@@ -21,7 +21,7 @@ export default async function Page({ params }: { params: Promise<Recipe> }) {
           </Link>
         </Button>
       </div>
-      <div className="p-4 shadow-md rounded-xl">
+      <div className="p-4 shadow-md rounded-xl fade-In">
         <div className="flex flex-col-reverse md:flex-row justify-center lg:justify-between">
           <div className="flex flex-col gap-4 pt-8 lg:pt-0">
             <div
