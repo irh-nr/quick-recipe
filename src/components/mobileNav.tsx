@@ -39,7 +39,7 @@ export default function MobileNav() {
           </SheetClose>
           <Separator />
           <SheetClose asChild>
-            <Link href={"/#About"} className="text-primary hover:underline">
+            <Link href={"/#about"} className="text-primary hover:underline">
               About
             </Link>
           </SheetClose>

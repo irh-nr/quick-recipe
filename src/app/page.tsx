@@ -32,7 +32,7 @@ export default async function HomePage() {
         </div>
       </div>
       <Separator />
-      <div id="About" className="mb-20">
+      <div id="about" className="mb-20">
         <TentangKami />
       </div>
       <div className="flex flex-col w-full gap-8 mt-4 p-6">
