@@ -8,7 +8,7 @@ type Props = {
   searchParams: Promise<{ search?: string }>;
 };
 
-export default async function Recipe({ searchParams }: Props) {
+export default async function RecipePage({ searchParams }: Props) {
   const { search = "" } = await searchParams;
   const keyword = search.trim();
   const recipes = keyword

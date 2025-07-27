@@ -15,19 +15,21 @@ export function Hero() {
         sizes="(max-width: 768px) 100vw, 50vw"
       />
       <div className="absolute inset-0 backdrop-blur-sm bg-black/10 z-10" />
-      {/*blur effect */}
+      {/*blur effect*/}
+      <div className="hidden dark:flex absolute inset-0 bg-black/40 z-10" />
+      {/*overlay*/}
       <div
         id="hero"
-        className="absolute inset-0 z-30 flex flex-col items-center justify-center gap-1 pt-4"
+        className="absolute inset-0 z-30 flex flex-col items-center text-secondary dark:text-primary justify-center gap-1 pt-4"
       >
-        <h1 className="typography-h1 text-shadow-md text-secondary text-center p-4">
+        <h1 className="typography-h1 text-shadow-md text-center p-4">
           Selamat Datang di QuickRecipe!
         </h1>
         <span className="px-5">
-          <p className="text-center text-shadow-md text-secondary">
+          <p className="text-center text-shadow-md">
             Temukan resep cepat dan mudah untuk hidangan lezat!
           </p>
-          <p className="text-center text-shadow-md text-secondary">
+          <p className="text-center text-shadow-md">
             Aplikasi ini dibuat dengan Next.js, TypeScript, dan Tailwind CSS.
           </p>
         </span>

@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navBar";
 import Footer from "@/sections/Footer";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,16 +25,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>
-        <header>
-          <nav>
-            <NavBar />
-          </nav>
-        </header>
-        {children}
-        <footer>
-          <Footer />
-        </footer>
+      <body
+        className={`${geistSans.variable} antialiased`}
+        suppressHydrationWarning
+      >
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <header>
+            <nav>
+              <NavBar />
+            </nav>
+          </header>
+          {children}
+          <footer>
+            <Footer />
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
   );

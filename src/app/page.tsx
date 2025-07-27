@@ -6,7 +6,7 @@ import { RecipeCardCarousel } from "@/components/recipeCardCarousel";
 import { TentangKami } from "@/sections/TentangKami";
 import { getRandomRecipe } from "@/lib/actions";
 
-export default async function Home() {
+export default async function HomePage() {
   const randomRecipes = await getRandomRecipe();
   return (
     <main className="fade-In">
@@ -32,7 +32,9 @@ export default async function Home() {
         </div>
       </div>
       <Separator />
-      <TentangKami />
+      <div id="About" className="mb-20">
+        <TentangKami />
+      </div>
       <div className="flex flex-col w-full gap-8 mt-4 p-6">
         <h2 className="text-center md:text-left typography-h2">Galeri</h2>
         <div>

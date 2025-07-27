@@ -37,6 +37,18 @@ export default function MobileNav() {
               Recipe
             </Link>
           </SheetClose>
+          <Separator />
+          <SheetClose asChild>
+            <Link href={"/#About"} className="text-primary hover:underline">
+              About
+            </Link>
+          </SheetClose>
+          <Separator />
+          <SheetClose asChild>
+            <Link href={"/"} className="text-primary hover:underline">
+              Contact
+            </Link>
+          </SheetClose>
         </div>
 
         <div className="mt-auto flex flex-col text-center justify-start items-start text-sm text-primary gap-2 p-4">
@@ -53,7 +65,7 @@ export default function MobileNav() {
             {socials.map(({ icon: Icon, url }, i) => (
               <div key={i}>
                 <Link href={url} target="_blank" rel="noopener noreferrer">
-                  <Icon color="black" className="size-5" />
+                  <Icon color="primary" className="size-5" />
                 </Link>
               </div>
             ))}
