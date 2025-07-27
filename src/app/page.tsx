@@ -4,21 +4,12 @@ import { Hero } from "@/sections/Hero";
 import { LihatResep } from "@/sections/LihatResep";
 import { RecipeCardCarousel } from "@/components/recipeCardCarousel";
 import { TentangKami } from "@/sections/TentangKami";
-import { getAllRecipes } from "@/lib/actions";
-
-function getRandomItems<T>(arr: T[], n: number): T[] {
-  return arr
-    .map((value) => ({ value, sort: Math.random() })) // Tambahkan properti sort dengan nilai acak
-    .sort((a, b) => a.sort - b.sort) // Urutkan
-    .slice(0, n) // Ambil n item pertama
-    .map(({ value }) => value); // Kembalikan hanya nilai tanpa properti
-}
+import { getRandomRecipe } from "@/lib/actions";
 
 export default async function Home() {
-  const recipes = await getAllRecipes();
-  const randomRecipes = getRandomItems(recipes, 5); // Ambil 5 resep acak
+  const randomRecipes = await getRandomRecipe();
   return (
-    <main>
+    <main className="fade-In">
       <section className="mb-20">
         <Hero />
       </section>

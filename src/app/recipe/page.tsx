@@ -16,7 +16,7 @@ export default async function Recipe({ searchParams }: Props) {
     : await getAllRecipes();
 
   return (
-    <main>
+    <main className="fade-In">
       <div className="p-4">
         <div className="flex">
           <form

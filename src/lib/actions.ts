@@ -27,7 +27,14 @@ export async function getFilteredRecipe(keyword: string) {
         .select('*')
         .or(
             `title.ilike.%${keyword}%,description.ilike.%${keyword}%,time.ilike.%${keyword}%`
-        );
+        )
     if (error) throw error
     return data
+}
+
+export async function getRandomRecipe() {
+    const { data, error } = await supabase
+        .rpc('get_random_recipes', { count: 7 })
+    if (error) throw error
+    return data ?? []
 }

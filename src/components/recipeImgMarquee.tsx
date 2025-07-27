@@ -5,7 +5,7 @@ import { InfiniteSlider } from "./motion-primitives/infinite-slider";
 
 export function RecipeImgMarquee({ recipes }: { recipes: Recipe[] }) {
   return (
-    <InfiniteSlider speedOnHover={30} reverse>
+    <InfiniteSlider speed={50} speedOnHover={20} reverse>
       {recipes.map((resep) => (
         <div
           key={resep.id}
