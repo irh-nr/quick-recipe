@@ -16,7 +16,7 @@ export default async function Recipe({ searchParams }: Props) {
     : await getAllRecipes();
 
   return (
-    <main className="fade-In">
+    <main>
       <div className="p-4">
         <div className="flex">
           <form
@@ -36,7 +36,7 @@ export default async function Recipe({ searchParams }: Props) {
           </form>
         </div>
       </div>
-      <div className="pt-4">
+      <div className="pt-4 fade-In">
         <RecipeSection recipes={recipes} />
       </div>
     </main>
