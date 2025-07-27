@@ -28,7 +28,6 @@ export function TentangKami() {
             alt="chef-img"
             style={{ objectFit: "cover" }}
             fill
-            unoptimized
             className="rounded-xl"
           />
         </div>

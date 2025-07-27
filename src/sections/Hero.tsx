@@ -10,7 +10,6 @@ export function Hero() {
         alt="cooking-bg"
         style={{ objectFit: "cover" }}
         fill
-        priority
         className="w-full h-full inset-0 z-0 opacity-100"
         sizes="(max-width: 768px) 100vw, 50vw"
       />
