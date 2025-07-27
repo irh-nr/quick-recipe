@@ -7,6 +7,7 @@ import {
   SheetDescription,
   SheetClose,
 } from "@/components/ui/sheet";
+import { Separator } from "./ui/separator";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import { socials } from "@/lib/socials";
@@ -24,20 +25,15 @@ export default function MobileNav() {
             Temukan resep cepat dan mudah untuk hidangan lezat!
           </SheetDescription>
         </SheetHeader>
-        <div className="flex flex-col items-start justify-start gap-2 p-4">
+        <div className="flex flex-col items-start justify-start gap-2 p-4 w-32">
           <SheetClose asChild>
-            <Link
-              href={"/"}
-              className="text-primary font-semibold text-xl hover:underline"
-            >
+            <Link href={"/"} className="text-primary hover:underline">
               Home
             </Link>
           </SheetClose>
+          <Separator />
           <SheetClose asChild>
-            <Link
-              href={"/recipe"}
-              className="text-primary font-semibold text-xl hover:underline"
-            >
+            <Link href={"/recipe"} className="text-primary hover:underline">
               Recipe
             </Link>
           </SheetClose>
