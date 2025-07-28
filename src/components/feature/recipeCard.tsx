@@ -5,11 +5,11 @@ import {
   CardHeader,
   CardDescription,
   CardFooter,
-} from "./ui/card";
-import { Button } from "./ui/button";
+} from "../ui/card";
+import { Button } from "../ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { Badge } from "./ui/badge";
+import { Badge } from "../ui/badge";
 import { Recipe } from "@/lib/type";
 
 type Props = {

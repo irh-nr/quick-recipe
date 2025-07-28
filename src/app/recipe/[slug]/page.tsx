@@ -4,6 +4,20 @@ import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import { getAllRecipesBySlug } from "@/lib/actions";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<Recipe>;
+}) {
+  const { slug } = await params;
+  const titleBySlug = await getAllRecipesBySlug(slug);
+
+  return {
+    title: `${titleBySlug} | Quick Recipe`,
+    description: `${titleBySlug} yang lezat`,
+  };
+}
+
 interface Recipe {
   slug: string;
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Recipe } from "@/lib/type";
-import { InfiniteSlider } from "./motion-primitives/infinite-slider";
+import { InfiniteSlider } from "../motion-primitives/infinite-slider";
 
 export function RecipeImgMarquee({ recipes }: { recipes: Recipe[] }) {
   return (

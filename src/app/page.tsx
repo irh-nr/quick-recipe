@@ -1,10 +1,14 @@
-import { RecipeImgMarquee } from "@/components/recipeImgMarquee";
+import { RecipeImgMarquee } from "@/components/feature/recipeImgMarquee";
 import { Separator } from "@/components/ui/separator";
 import { Hero } from "@/sections/Hero";
 import { LihatResep } from "@/sections/LihatResep";
-import { RecipeCardCarousel } from "@/components/recipeCardCarousel";
+import { RecipeCardCarousel } from "@/components/feature/recipeCardCarousel";
 import { TentangKami } from "@/sections/TentangKami";
 import { getRandomRecipe } from "@/lib/actions";
+
+export const metadata = {
+  title: "Home | Quick Recipe",
+};
 
 export default async function HomePage() {
   const randomRecipes = await getRandomRecipe();

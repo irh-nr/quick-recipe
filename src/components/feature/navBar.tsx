@@ -55,7 +55,7 @@ export function NavBar() {
                 asChild
                 className={navigationMenuTriggerStyle()}
               >
-                <Link href={"/"}>Contact</Link>
+                <Link href={"/contact"}>Contact</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>

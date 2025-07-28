@@ -4,6 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { getAllRecipes, getFilteredRecipe } from "@/lib/actions";
 
+export const metadata = {
+  title: "Recipe | Quick Recipe",
+};
+
 type Props = {
   searchParams: Promise<{ search?: string }>;
 };

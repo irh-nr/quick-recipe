@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
-import { NavBar } from "@/components/navBar";
+import { NavBar } from "@/components/feature/navBar";
 import Footer from "@/sections/Footer";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,7 +13,7 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: "Simple & Quick Recipe",
-  description: "Created by me",
+  description: "Created by Irhamna NR",
   icons: {
     icon: "/icon.svg",
   },
@@ -30,6 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <Toaster richColors />
           <header>
             <nav>
               <NavBar />

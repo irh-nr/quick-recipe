@@ -12,7 +12,7 @@ import {
 import { useRouter, useSearchParams } from "next/navigation";
 import { useMemo } from "react";
 import { Recipe } from "@/lib/type";
-import RecipeCard from "../components/recipeCard";
+import RecipeCard from "../components/feature/recipeCard";
 
 const ITEMS_PER_PAGE = 6; // Set the number of items per page
 

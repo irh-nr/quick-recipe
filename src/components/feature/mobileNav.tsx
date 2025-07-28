@@ -7,7 +7,7 @@ import {
   SheetDescription,
   SheetClose,
 } from "@/components/ui/sheet";
-import { Separator } from "./ui/separator";
+import { Separator } from "../ui/separator";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import { socials } from "@/lib/socials";
@@ -48,7 +48,7 @@ export default function MobileNav() {
           </SheetClose>
           <Separator />
           <SheetClose asChild>
-            <Link href={"/"} className="text-primary hover:underline">
+            <Link href={"/contact"} className="text-primary hover:underline">
               Contact
             </Link>
           </SheetClose>

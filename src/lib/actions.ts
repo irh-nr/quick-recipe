@@ -38,3 +38,26 @@ export async function getRandomRecipe() {
     if (error) throw error
     return data ?? []
 }
+
+export async function SubmitContactForm({
+    name,
+    email,
+    phoneNumber,
+    message,
+}: {
+    name: string,
+    email: string,
+    phoneNumber?: string,
+    message: string,
+}) {
+    const { error } = await supabase.from("contact_message").insert([
+        {
+            name,
+            email,
+            phoneNumber,
+            message,
+        }
+    ])
+    if (error) throw error
+    return { success: true }
+}
