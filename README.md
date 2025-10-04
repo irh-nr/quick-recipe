@@ -4,7 +4,7 @@
 
 A clean and minimalistic recipe web application built with Next.js 14 (App Router), Tailwind CSS, and Supabase. Easily browse, search, and view recipes with a user-friendly interface.
 
-🚀 Live Website: [[quick-reicpe-web-app.vercel.app](https://quick-recipe-app.vercel.app/)]
+🚀 Live Website: [https://quick-recipe-app.vercel.app/]
 
 (screenshots)
 
