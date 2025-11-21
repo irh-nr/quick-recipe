@@ -22,19 +22,16 @@ export function Hero() {
         id="hero"
         className="absolute inset-0 z-30 flex flex-col items-center text-secondary dark:text-primary justify-center gap-1 pt-4"
       >
-        <h1 className="typography-h1 text-shadow-md text-center p-4">
+        <h1 className="typography-h1 text-shadow-md text-center p-2">
           Selamat Datang di QuickRecipe!
         </h1>
         <span className="px-5">
           <p className="text-center text-shadow-md">
             Temukan resep cepat dan mudah untuk hidangan lezat!
           </p>
-          <p className="text-center text-shadow-md">
-            Aplikasi ini dibuat dengan Next.js, TypeScript, dan Tailwind CSS.
-          </p>
         </span>
         <div className="p-2">
-          <Button asChild className="mt-4" variant="transparent">
+          <Button asChild variant="transparent">
             <Link href="#get-started">Mulai</Link>
           </Button>
         </div>
